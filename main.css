@@ -1,33 +1,50 @@
 body {
 	font-family: sacramento;
+	color: blue;
 	background-color: #fff5e6;
 	margin:0;
 	padding-top: 5vmin; padding-bottom: 0vmin;
 	padding-right: 15vmin; padding-left: 15vmin;
 }
 
-a {color: blue;}
+a {color: salmon;}
 
 .cursor{
 	cursor: url("images/cursor2.png"),auto ;}
 
 
 
+
+.imagewrap img {
+	display:block;
+	width: 100%;
+	max-width: 1440px;
+	height: auto;
+	margin: auto;
+}
+
+
+
+
+
+
+
 .container {
+	position: sticky;
 	cursor: url("images/cursor2.png"),auto ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-auto-rows: 30vmin;
-    grid-column-gap: 20px;
+    grid-column-gap: 2%; 
     grid-row-gap: 100px;
     justify-content: center;
     align-content: center;
     background-color: inherit;
- 	
  }
 
 
 .box1 { 
+	position: sticky; 
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 1;
@@ -38,6 +55,7 @@ a {color: blue;}
  		font-size: 3vmax;
  	/*	border-style: dotted; border-radius: 40px; border-width: 5px; border-color: white;*/
  		font-family: eb garamond;
+ 	
 
 	
 }
@@ -51,7 +69,11 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	/*width: 100%;*/
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+		
 }
 
 .box3 { 
@@ -62,7 +84,10 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+		
 }
 
 .box4 { 
@@ -73,6 +98,8 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
@@ -84,6 +111,8 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
@@ -95,6 +124,8 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
@@ -106,6 +137,8 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
@@ -117,6 +150,8 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+		margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
@@ -128,6 +163,8 @@ a {color: blue;}
 		background-color: #fff5e6;
 		text-align:center;
 		font-size: 2vmax;
+		height: auto;
+	margin: auto;
 		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
@@ -145,16 +182,18 @@ a {color: blue;}
 
 .container .box6:hover {
 
-		background-color: salmon;color: salmon;font-style: italic;
+		/*background-color: salmon;*/color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
 
 	
 }
 
 .container .box2:hover {
 
-		background-color: salmon; color: salmon;font-style: italic;
+		/*background-color: salmon; */color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
 	
 
 	
@@ -162,17 +201,18 @@ a {color: blue;}
 
 .container .box3:hover {
 
-		background-color: salmon;color: salmon;font-style: italic;
+	/*	background-color: salmon;*/color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
 	
-
+/*box-shadow: 1vmin 1vmin blue;*/
 	
 }
 
 .container .box4:hover {
 
-		background-color: salmon;color: salmon;font-style: italic;
+	/*	background-color: salmon;*/color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
 		
 
 	
@@ -180,16 +220,18 @@ a {color: blue;}
 
 .container .box7:hover {
 
-		background-color: salmon;color: salmon;font-style: italic;
+		/*background-color: salmon;*/color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
 
 	
 }
 
-.container .box5:hover {
+.container .box5:hover { 
 
-		background-color: salmon;color: salmon;font-style: italic;
+		/*background-color: salmon;*/color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
+	/*box-shadow: 1vmin 1vmin blue;*/
 		
 
 	
@@ -197,8 +239,9 @@ a {color: blue;}
 
 .container .box8:hover {
 
-		background-color: salmon;color: salmon;font-style: italic;
+	/*	background-color: salmon;*/color: salmon;font-style: italic;
 		border-style: dotted; border-radius: 20px; border-color: white;
+	/*box-shadow: 1vmin 1vmin blue;*/
 		
 
 	
@@ -206,12 +249,14 @@ a {color: blue;}
 
 .container .box9:hover {
 
-		background-color: salmon;color: salmon;
+		/*background-color: salmon;*/color: salmon;
 		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
 		
 
 	
 }
+
 
 
 
