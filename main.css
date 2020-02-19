@@ -2,10 +2,11 @@ body {
 	font-family: sacramento;
 	background-color: #fff5e6;
 	margin:0;
-	padding-top: 10vmin; padding-bottom: 10vmin;
+	padding-top: 5vmin; padding-bottom: 0vmin;
 	padding-right: 15vmin; padding-left: 15vmin;
 }
 
+a {color: blue;}
 
 .cursor{
 	cursor: url("images/cursor2.png"),auto ;}
