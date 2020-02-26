@@ -6,7 +6,11 @@ body {
 			cursor: url("images/cursor5.png"),auto ;
 		}
 
-
+  h1 {
+    position: absolute;
+    font-family: garamond;
+    color: lightpink;
+  }
 .cursor{
 	cursor: url("images/cursor5.png"),auto ;}
 
@@ -46,3 +50,4 @@ body {
   content: url("images/background2.svg");
   cursor: url("images/cursor5.png"),auto ;
 }
+
