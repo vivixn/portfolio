@@ -1,52 +1,397 @@
-
-
-
 body {
-		margin: 0;
-			background-color: #fff5e6;
-			overflow: none;
-			cursor: url("images/cursor5.png"),auto ;
-		}
+	font-family: sacramento;
+	color: blue;
+	background-color: #fff5e6;
+	margin:0;
+	padding-top: 5vmin; padding-bottom: 0vmin;
+	padding-right: 15vmin; padding-left: 15vmin;
+	overflow: scroll;
+}
 
+a {color: salmon;}
 
 .cursor{
 	cursor: url("images/cursor5.png"),auto ;}
 
+
+
+
+.imagewrap img {
+	display:block;
+	width: 100%;
+	max-width: 1440px;
+	height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+}
+
+
+
+
+
+
+
 .container {
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	/*position: sticky;*/
+	cursor: url("images/cursor5.png"),auto ;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 1fr;
+	/*grid-auto-rows: 30vmin;*/
+    grid-column-gap: 2%; 
+    grid-row-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    background-color: inherit;
+ }
+
+
+.box1 { 
+	position: sticky; 
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+		background-color: #fff5e6;
+		margin-top: 3vmax;
+		padding-top: 4vmin;
+		text-align:center;
+ 		font-size: 3vmax;
+ 	/*	border-style: dotted; border-radius: 40px; border-width: 5px; border-color: white;*/
+ 		font-family: eb garamond;
+ 		cursor: url("images/cursor5.png"),auto ;
+ 	
+
+	
+}
+
+
+.box2 { 
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+	/*width: 100%;*/
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+		
+}
+
+.box3 { 
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+		
+}
+
+.box4 { 
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box5 { 
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box6 { 
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box7 { 
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box8 { 
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+		margin: auto;
 		cursor: url("images/cursor5.png"),auto ;
-
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
-#circle{
- position: relative;
-  display: block;
-  margin: auto;
-  align-items: center;
-  width: 25vmin;
-  bottom: 10vmin;
-  cursor: url("images/cursor5.png"),auto ;
-
- 
+.box9 { 
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 3;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
-#click{
-  display: block;
-  height: 25vmin;
-  width: 25vmin;
-  z-index: 2;
-  position: absolute;
-  cursor: url("images/cursor5.png"),auto ;
+.box10 { 
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 4;
+	grid-row-end: 4;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+.box11 { 
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 4;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+.box12 { 
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start:4;
+	grid-row-end: 4;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
 
-#click:hover + #circle{
-  content: url("images/background2.svg");
-  cursor: url("images/cursor5.png"),auto ;
+.box13 { 
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 4;
+		background-color: #fff5e6;
+		text-align:center;
+		font-size: 2vmax;
+		height: auto;
+	margin: auto;
+	cursor: url("images/cursor5.png"),auto ;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
 }
+
+
+.footer {
+	grid-column-start: 1;
+	grid-column-end: 5;
+  	grid-row-start: 5;
+  	grid-row-end: 5;
+     justify-content: center;
+     vertical-align: text-bottom;
+    align-content: center;
+    font-family: eb garamond;
+ 	font-size: 1.5vmax;
+ 	text-align: center;
+ 	padding-top: 15vmin;
+ 	cursor: url("images/cursor5.png"),auto ;
+/* 	 display: table-cell;
+  vertical-align: bottom;*/
+}
+
+
+.container .box1:hover {
+
+		/*background-color: salmon;*/
+		font-style: italic; color: salmon;
+	/*	border-style: dotted; border-radius: 40vmin; border-width: 3vmin; border-color: white;*/
+
+
+	
+}
+
+.container .box6:hover {
+
+		/*background-color: salmon;*/color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
+
+	
+}
+
+.container .box2:hover {
+
+		/*background-color: salmon; */color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		/*box-shadow: 1vmin 1vmin blue;*/
+	
+
+	
+}
+
+.container .box3:hover {
+
+	/*	background-color: salmon;*/color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+	
+/*box-shadow: 1vmin 1vmin blue;*/
+	
+}
+
+.container .box4:hover {
+
+	/*	background-color: salmon;*/color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box7:hover {
+
+		/*background-color: salmon;*/color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+
+	
+}
+
+.container .box5:hover { 
+
+		/*background-color: salmon;*/color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+	/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box8:hover {
+
+	/*	background-color: salmon;*/color: salmon;font-style: italic;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+	/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box9:hover {
+
+		/*background-color: salmon;*/color: salmon;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box10:hover {
+
+		/*background-color: salmon;*/color: salmon;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box11:hover {
+
+		/*background-color: salmon;*/color: salmon;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box12:hover {
+
+		/*background-color: salmon;*/color: salmon;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+.container .box13:hover {
+
+		/*background-color: salmon;*/color: salmon;
+		border-style: dotted; border-radius: 20px; border-color: white;
+		cursor: url("images/cursor5.png"),auto ;
+		/*box-shadow: 1vmin 1vmin blue;*/
+		
+
+	
+}
+
+
+
 
 
