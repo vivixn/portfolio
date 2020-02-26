@@ -37,15 +37,15 @@ body {
 
 #click{
   display: block;
-  height: 25vmin;
-  width: 25vmin;
+  height: 35vmin;
+  width: 35vmin;
   z-index: 2;
   position: absolute;
   cursor: url("images/cursor5.png"),auto ;
 }
 
 #click:hover + #circle{
-  content: url("images/background2.svg");
+  content: url("images/background6.svg");
   cursor: url("images/cursor5.png"),auto ;
 }
 
