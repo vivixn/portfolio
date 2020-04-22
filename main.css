@@ -3,7 +3,6 @@ body {
 		margin: 0;
 			background-color: #fff5e6;
 			overflow: none;
-			cursor: url("images/cursor5.png"),auto ;
 		}
 
   h1 {
@@ -11,8 +10,7 @@ body {
     font-family: garamond;
     color: lightpink;
   }
-.cursor{
-	cursor: url("images/cursor5.png"),auto ;}
+
 
 .container {
 		position: fixed;
@@ -21,7 +19,7 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		cursor: url("images/cursor5.png"),auto ;
+
 
 }
 
@@ -32,7 +30,6 @@ body {
   align-items: center;
   width: 25vmin;
   bottom: 10vmin;
-  cursor: url("images/cursor5.png"),auto ;
 
  
 }
@@ -43,11 +40,10 @@ body {
   width: 25vmin;
   z-index: 2;
   position: absolute;
-  cursor: url("images/cursor5.png"),auto ;
 }
 
 #click:hover + #circle{
   content: url("images/background2.svg");
-  cursor: url("images/cursor5.png"),auto ;
+
 }
 
