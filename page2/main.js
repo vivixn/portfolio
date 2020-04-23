@@ -98,7 +98,7 @@ var pieces = [
       // ],
       typeSpeed: 50,
       backSpeed: 50,
-      loop: true
+      loop: false
     });
 
 
@@ -107,5 +107,4 @@ var pieces = [
 pieces.forEach(function(pieces){
 $(".projectsTab").append("<div class=name>"+ pieces.name+ "</div>"+ "<div class=emoji>"+pieces.emoji+"</div>")
 })
-
 
