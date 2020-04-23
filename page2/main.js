@@ -91,7 +91,7 @@ var points = [
     var typed = new Typed('#info', {
       strings: [
       '',
-      'hi! i am vivian lin, a new york based graphic designer interested in <br> branding, photography, data-visualization, css, and social media. <br> i am a big fan of galliard, hojicha,schubert, books, and citibiking;)',
+      'hi! i am vivian lin, a new york based graphic designer interested in <br> branding, photography, data-visualization, css, and social media. <br> i am a big fan of galliard, hojicha, schubert, books, and citibiking;)',
       ],
       // 'vivian lin is a new york based graphic designer interested in', 'branding, photography, data-visualization, css, and social media.','she is a fan of galliard, hojicha, schubert, books, and citibiking;)',
       // ],
