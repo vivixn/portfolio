@@ -1,4 +1,4 @@
-var points = [
+var pieces = [
   {
     "name": "&nbsp&nbsp <a href='images/pace.png'>pace gallery guide</a>",
     "emoji":"🎨",
@@ -60,25 +60,26 @@ var points = [
     "pic":"<a href='images/wtc1.pdf'><img src='images/9.png' width='100%' height='100%'></a>",
   },]
 
- for(var i=0; i<points.length; i++){
-    var fruitDiv = $('<div/>', {
-        'class': 'hoverBox'
+ for(var i=0; i<pieces.length; i++){
+    var circle = $('<div/>', {
+        'class': 'circleDiv'
       })
       .html(
-         points[i].pic
+         pieces[i].pic
          )
       .css({'left': Math.floor(Math.random() * 90) + "%",
           'top': Math.floor(Math.random() * 90) + "%"})
+
       .hover(function(){
         $(this).css({'opacity': .90 })
         .html(
-        points[i].pic
+        pieces[i].pic
 
         )
       })
-
-    $('body').append(fruitDiv)
+    $('body').append(circle)
   }
+
 
     $(document).ready(function(){
       $(".slideDown").click(function(){
@@ -100,5 +101,11 @@ var points = [
       loop: true
     });
 
+
+
+
+pieces.forEach(function(pieces){
+$(".projectsTab").append("<div class=name>"+ pieces.name+ "</div>"+ "<div class=emoji>"+pieces.emoji+"</div>")
+})
 
 
