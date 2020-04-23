@@ -4,14 +4,14 @@
   position: fixed;
   width: 125px;
   height: 125px;
-  opacity: 0.45;
+  opacity: 0.55;
   background-color: salmon;
   padding: 5px;
 
 }
 
 body{
-background-color:  #fff5e6;
+background-color:  #fffaee;
 font-family: EB Garamond;
 color: black;
 font-size: 2.3vh;
@@ -39,7 +39,27 @@ a:hover {
   color: salmon;
 }
 
+
 #list:hover {
   color: salmon;
+}
+
+mark {
+  background-color:#fffaee;
+}
+mark:hover {
+  color:salmon;
+}
+
+.slideDown:hover {
+color: salmon;
+}
+
+#projsHeading { 
+text-decoration: underline;
+ }
+
+.projectsTab {
+  display: none;
 }
 

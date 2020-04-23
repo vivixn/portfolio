@@ -70,7 +70,7 @@ var points = [
       .css({'left': Math.floor(Math.random() * 90) + "%",
           'top': Math.floor(Math.random() * 90) + "%"})
       .hover(function(){
-        $(this).css({'opacity': .95 })
+        $(this).css({'opacity': .90 })
         .html(
         points[i].pic
 
@@ -80,9 +80,25 @@ var points = [
     $('body').append(fruitDiv)
   }
 
+    $(document).ready(function(){
+      $(".slideDown").click(function(){
+        $(".projectsTab").slideToggle("slow");
+      });
+    });
 
-points.forEach(function(points){
-$("#info").append("<div class=name>"+ points.name+ "</div>"+ "<div class=emoji>"+points.emoji+"</div>")
-})
+
+
+    var typed = new Typed('#info', {
+      strings: [
+      '',
+      'hi! i am vivian lin, a new york based graphic designer interested in <br> branding, photography, data-visualization, css, and social media. <br> i am a big fan of galliard, hojicha,schubert, books, and citibiking;)',
+      ],
+      // 'vivian lin is a new york based graphic designer interested in', 'branding, photography, data-visualization, css, and social media.','she is a fan of galliard, hojicha, schubert, books, and citibiking;)',
+      // ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    });
+
 
 
