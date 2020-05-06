@@ -6,79 +6,79 @@ var englandIcons = [
 
 
 { "name": "1",
-  "pic": "<img id='cookie' src='images/englandhistory.gif' alt='colorful pony pinata' width='934px' height='670px' >"
+  "pic": "<img id='1' src='images/englandhistory.gif' alt='colorful pony pinata' width='934px' height='670px' >"
 },
 
 
-{ "name": "egg",
-  "pic": "<img id='egg' src='images/16.png' alt='round white whole egg' width='870px' height='670 px' >"
+{ "name": "16",
+  "pic": "<img id='16' src='images/16.png'  width='870px' height='670 px' >"
 },
 
 
-{ "name": "envelope",
-  "pic": "<img id='envelope' src='images/19.png' alt='unopened white envelope' width='670px' height='670px' >"
+{ "name": "19",
+  "pic": "<img id='19' src='images/19.png'  width='670px' height='670px' >"
 },
 
-{ "name": "tape",
-  "pic": "<img id='tape' src='images/20.png' alt='roll of clear packing tape' width='670px' height='670px'>"
+{ "name": "20",
+  "pic": "<img id='20' src='images/20.png'  width='670px' height='670px'>"
 },
 
-{ "name": "cookie",
-  "pic": "<img id='cookie' src='images/21.png' alt='colorful pony pinata' width='670px' height='670px'>"
+{ "name": "21",
+  "pic": "<img id='21' src='images/21.png'  width='670px' height='670px'>"
 },
 
-{ "name": "breakglass1",
-  "pic": "<img id='breakglass1' src='images/24.png' alt='empty red break glass in case of emergency wall box' width='670px' height='670px'>"
-},
-
-
-{ "name": "breakglass",
-  "pic": "<img id='breakglass' src='images/26.png' alt='empty red break glass in case of emergency wall box' width='670px' height='670px'>"
+{ "name": "24",
+  "pic": "<img id='24' src='images/24.png' width='670px' height='670px'>"
 },
 
 
-{ "name": "glowstick",
-  "pic": "<img id='glowstick' src='images/17.png' alt='blue glowstick' width='800px' height='670px' >"
+{ "name": "26",
+  "pic": "<img id='26' src='images/26.png'  width='670px' height='670px'>"
 },
 
 
-{ "name": "cookieffl",
-  "pic": "<img id='cookie' src='images/31.png' alt='colorful pony pinata' width='1200px' height='670px' >"
+{ "name": "17",
+  "pic": "<img id='17' src='images/17.png'  width='800px' height='670px' >"
+},
+
+
+{ "name": "31",
+  "pic": "<img id='31' src='images/31.png'  width='1200px' height='670px' >"
 },
 
 
 
-{ "name": "pinata",
-  "pic": "<img id='pinata' src='images/18.png' alt='colorful pony pinata' width='1300px' height='670px' >"
+{ "name": "18",
+  "pic": "<img id='18' src='images/18.png' width='1300px' height='670px' >"
 },
 
 
-{ "name": "cookie1",
-  "pic": "<img id='cookie' src='images/27.png' alt='colorful pony pinata' width='1037px' height='670px' >"
+{ "name": "27",
+  "pic": "<img id='27' src='images/27.png' width='1037px' height='670px' >"
 },
 
 
-{ "name": "cookie2",
-  "pic": "<img id='cookie' src='images/28.png' alt='colorful pony pinata' width='1200px' height='670px' >"
+{ "name": "28",
+  "pic": "<img id='28' src='images/28.png' width='1200px' height='670px' >"
 },
 
 
-{ "name": "cookie32",
-  "pic": "<img id='cookie' src='images/32.png' alt='colorful pony pinata' width='1200px' height='670px' >"
+{ "name": "32",
+  "pic": "<img id='32' src='images/32.png' alt='colorful pony pinata' width='1200px' height='670px' >"
 },
 
 
-{ "name": "cookie3",
-  "pic": "<img id='cookie' src='images/29.png' alt='colorful pony pinata' width='600px' height='670px' >"
+{ "name": "29",
+  "pic": "<img id='29' src='images/29.png' width='600px' height='670px' >"
 },
 
 
-{ "name": "cookie",
-  "pic": "<img id='cookie' src='images/22.png' alt='colorful pony pinata' width='935px' height='670px' >"
+{ "name": "22",
+  "pic": "<img id='22' src='images/22.png'  width='935px' height='670px' >"
 },
 
-{ "name": "cookie",
-  "pic": "<img id='cookie' src='images/33.png' alt='colorful pony pinata' width='1467px' height='670px' >"
+{ "name": "33",
+  "pic": "<img id='33' src='images/33.png' width='1467px' height='670px' >"
 },
 
 ]
