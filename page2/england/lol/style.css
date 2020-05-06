@@ -1,0 +1,61 @@
+body {
+	background-color: white;
+}
+
+
+
+/*img:hover {
+	width: 100px;
+	height: 100px;
+	background-color: magenta;
+	animation-name: img;
+	animation-duration: 4s;
+
+}*/
+
+	#objectsArray {
+		align-content: center;
+		font-family: 'Roboto Mono', monospace;
+		color: white;
+		font-size: 10px;
+		float: center;
+			padding: 100px;
+	}
+
+
+
+
+img {
+		max-width: 300px;
+		flex-wrap: wrap;
+		display: flex;
+		float: left;
+		border: none;
+		padding: 10px;
+	}
+	
+/*@keyframes enlarge {
+	from {background-color: magenta;}
+	to {background-color: cyan;}
+}	*/
+img:hover {
+		max-width: 1000px;
+		background-color: white;
+		animation-name: enlarge;
+		animation-duration: 4s;
+}
+
+	/*.box {
+		padding: 1px;
+		color: white;
+		width: 80%;
+  		text-align: left;
+  		padding: 10px 20px;
+}*/
+
+
+	
+
+
+
+

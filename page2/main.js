@@ -58,7 +58,13 @@ var pieces = [
     "name":"&nbsp&nbsp <a href='images/wtc1.pdf'>wtc merchandise</a>",
     "emoji":"👕",
     "pic":"<a href='images/wtc1.pdf'><img src='images/9.png' width='100%' height='100%'></a>",
-  },]
+  },
+   {
+    "name":"&nbsp&nbsp <a href='England/index.html'>England Atlas</a>",
+    "emoji":"🗺️",
+    "pic":"<a href='images/wtc1.pdf'><img src='images/9.png' width='100%' height='100%'></a>",
+  },
+  ]
 
  for(var i=0; i<pieces.length; i++){
     var circle = $('<div/>', {
